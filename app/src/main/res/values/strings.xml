@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Places</string>
+    <string name="search_fragment">Search Fragment</string>
+    <string name="keyword">Keyword</string>
+    <string name="favourite_fragment">Favourite Fragment</string>
+    <string-array name="category">
+        <item>default</item>
+        <item>airport</item>
+        <item>amusement_park</item>
+        <item>aquarium</item>
+        <item>art_gallery</item>
+        <item>bakery</item>
+        <item>bar</item>
+        <item>beauty_salon</item>
+        <item>bowling_alley</item>
+        <item>bus_station</item>
+        <item>cafe</item>
+        <item>campground</item>
+        <item>car_rental</item>
+        <item>casino</item>
+        <item>lodging</item>
+        <item>movie_theater</item>
+        <item>museum</item>
+        <item>night_club</item>
+        <item>park</item>
+        <item>parking</item>
+        <item>restaurant</item>
+        <item>shopping_mall</item>
+        <item>stadium</item>
+        <item>subway_station</item>
+        <item>taxi_stand</item>
+        <item>train_station</item>
+        <item>transit_station</item>
+        <item>travel_agency</item>
+        <item>zoo</item>
+    </string-array>
+    <string-array name="drivingMode">
+        <item>DRIVING</item>
+        <item>WALKING</item>
+        <item>BICYCLING</item>
+        <item>TRANSIT</item>
+
+    </string-array>
+    <string-array name="sorting">
+        <item>Default</item>
+        <item>Highest Rating</item>
+        <item>Lowest Rating</item>
+        <item>Least Recent</item>
+        <item>Most Recent</item>
+    </string-array>
+    <string-array name="reviewtype">
+        <item>Google Reviews</item>
+        <item>Yelp Reviews</item>
+         </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

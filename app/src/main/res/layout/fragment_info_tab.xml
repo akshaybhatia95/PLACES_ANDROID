@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.d.places.InfoTab">
+
+    <LinearLayout
+        android:id="@+id/addressTitle"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Address"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/address"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/phNoTitle"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Phone Number" />
+        <TextView
+            android:autoLink="web"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/phNumber"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pricetitle"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Price Level" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/price"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ratingTitle"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Rating" />
+        <RatingBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/customRatingBar"
+            android:id="@+id/rating"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/gPageTitle"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Google Page" />
+        <TextView
+            android:autoLink="web"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/gPage"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/websiteTitle"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Website" />
+        <TextView
+            android:autoLink="web"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/website"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+    
+
+</LinearLayout>
